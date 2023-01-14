@@ -13,6 +13,8 @@
 		DF036B552972E92300F6F193 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF036B542972E92300F6F193 /* Preview Assets.xcassets */; };
 		DFB0BF8F29730DFE00D965A4 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0BF8E29730DFE00D965A4 /* InfoPanelView.swift */; };
 		DFB0BF91297312D100D965A4 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0BF90297312D100D965A4 /* ControlImageView.swift */; };
+		DFB0BF932973197000D965A4 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0BF922973197000D965A4 /* PageModel.swift */; };
+		DFB0BF95297319CB00D965A4 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0BF94297319CB00D965A4 /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		DF036B542972E92300F6F193 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFB0BF8E29730DFE00D965A4 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 		DFB0BF90297312D100D965A4 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		DFB0BF922973197000D965A4 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		DFB0BF94297319CB00D965A4 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		DF036B5D2972EBE400F6F193 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DFB0BF922973197000D965A4 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 		DF036B5E2972EBEE00F6F193 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				DFB0BF94297319CB00D965A4 /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -176,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFB0BF91297312D100D965A4 /* ControlImageView.swift in Sources */,
+				DFB0BF932973197000D965A4 /* PageModel.swift in Sources */,
 				DF036B502972E92200F6F193 /* ContentView.swift in Sources */,
 				DF036B4E2972E92200F6F193 /* PinchApp.swift in Sources */,
+				DFB0BF95297319CB00D965A4 /* PageData.swift in Sources */,
 				DFB0BF8F29730DFE00D965A4 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
