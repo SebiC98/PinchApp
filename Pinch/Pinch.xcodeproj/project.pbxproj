@@ -11,6 +11,7 @@
 		DF036B502972E92200F6F193 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF036B4F2972E92200F6F193 /* ContentView.swift */; };
 		DF036B522972E92300F6F193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF036B512972E92300F6F193 /* Assets.xcassets */; };
 		DF036B552972E92300F6F193 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF036B542972E92300F6F193 /* Preview Assets.xcassets */; };
+		DFB0BF8F29730DFE00D965A4 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0BF8E29730DFE00D965A4 /* InfoPanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DF036B4F2972E92200F6F193 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF036B512972E92300F6F193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF036B542972E92300F6F193 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFB0BF8E29730DFE00D965A4 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		DF036B5C2972EBD700F6F193 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DFB0BF8E29730DFE00D965A4 /* InfoPanelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				DF036B502972E92200F6F193 /* ContentView.swift in Sources */,
 				DF036B4E2972E92200F6F193 /* PinchApp.swift in Sources */,
+				DFB0BF8F29730DFE00D965A4 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
